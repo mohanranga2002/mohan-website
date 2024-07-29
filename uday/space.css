@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orangered;
+    height: 100%;
+    padding: 2rem;
+    gap: 2rem;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    color: white;
+}
+
+.para {
+    color: #ffffff;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    gap: 1rem;
+    padding: 7px;
+    border: 1rem rgb(244, 241, 241) solid;
+    background-color: rgb(226, 225, 225);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+
+.frist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: .5rem;
+    /* background-color: white; */
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: .5rem;
+
+}
+
+.log {
+    color: rgb(250, 75, 0);
+}
+
+.Dimg {
+    width: 100%;
+    height: 14rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
+.grid-container {
+    display: none !important;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+
+    .frist,
+    .second {
+        flex-direction: column;
+    }
+}

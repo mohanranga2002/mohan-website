@@ -9,8 +9,11 @@
 }
 
 .logo{
-    width: 9rem;
+    width: 15rem;
     padding:2rem;
+}
+.icon1{
+    width:15%;
 }
 nav{
     display: flex;
@@ -95,7 +98,7 @@ nav{
         font-size: x-small;
     }
     .logo{
-        width: 6rem;
+        width: 12rem;
     }
     
     
